@@ -1,25 +1,27 @@
 import React from 'react'
+import styles from './menu.module.css'
 
-const index = () => {
+const Header = () => {
   return (
-    <div>
-      <div>
-        <ul>
+    <header className={styles.header}>
+      <div className={styles.logo}>
+        <img src="/logo.png" alt="Logo" />
+      </div>
+      <nav className={styles.nav}>
+        <ul className={styles.list}>
           <li>Home</li>
           <li>Posts</li>
           <li>Sobre</li>
           <li>Contato</li>
         </ul>
-        <form>
+        <form className={styles.form}>
           <label>
-            Search:
-            <input />
+            <input type="search" placeholder="Pesquisar nesse blog" className={styles.searchInput} />
           </label>
-          <button type="submit">Search</button>
         </form>
-      </div>
-    </div>
+      </nav>
+    </header>
   )
 }
 
-export default index
+export default Header

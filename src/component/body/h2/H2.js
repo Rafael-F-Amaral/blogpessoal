@@ -2,7 +2,7 @@ import React from 'react'
 
 const H2 = () => {
   return (
-    <div>H2</div>
+    <div>Uma linha tênue entre a ficção e a utopia!</div>
   )
 }
 
