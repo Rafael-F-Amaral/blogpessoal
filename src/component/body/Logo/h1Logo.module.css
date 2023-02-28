@@ -1,0 +1,16 @@
+.logoContainer {
+    max-width: 100%;
+    text-align: center;
+    padding-top: 6rem;
+    
+  }
+  
+  .h1Logo {
+    font-family: voice in my head;
+    font-size: 7vw; /* Use vw para tornar a fonte responsiva */
+    
+  }
+  .LogoImage{
+    width: 100%;
+    
+  }

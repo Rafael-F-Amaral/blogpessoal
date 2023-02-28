@@ -4,9 +4,6 @@ import styles from './menu.module.css'
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <img src="/logo.png" alt="Logo" />
-      </div>
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li>Home</li>
