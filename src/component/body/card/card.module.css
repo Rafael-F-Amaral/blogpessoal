@@ -1,0 +1,42 @@
+.cardcontainer{
+    width: calc(100% / 2);
+    height: 60vh;
+    margin: auto; 
+    margin-top: 20vh;
+    color: white;
+    font-weight: 600;
+    background-blend-mode: multiply;
+    border-radius: 15px;
+
+}
+.postTime{
+    color: white;
+    font-weight: 600;
+}
+
+.cardContent {
+  background-image: url('./imageCard/teste.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+
+}
+
+.header {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.postTime {
+  font-size: 0.8rem;
+}

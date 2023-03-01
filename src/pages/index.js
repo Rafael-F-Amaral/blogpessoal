@@ -9,10 +9,11 @@ import styles from '../styles/index.module.css'
 const index = () => {
   return (
     <div className={styles.bodyMain}>
-      <div>
-        <Logo />
+      <Logo />
         <H2 />
+      <div>
         <Card />
+
       </div>
     </div>
   )
