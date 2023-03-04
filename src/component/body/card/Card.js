@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './card.module.css'
+import React from 'react';
+import styles from './card.module.css';
 
 const Card = (props) => {
   return (
@@ -14,7 +14,7 @@ const Card = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
