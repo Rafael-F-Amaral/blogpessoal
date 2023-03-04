@@ -1,21 +1,22 @@
 .bodyMain {
-    background-color: white;
-    height: 100%;
-    width: 90%;
-    margin: auto;
-    padding-bottom: 100px;
-    
-  }
-  
-  .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-  margin-top: 100px;
-    
-  }
-  
-  .cardContainer > * {
-    flex-basis: 50%;
-    
-  }
+  background-color: white;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 100px;
 
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+margin-top: 300px;
+}
+
+.cardContainer>* {
+  flex-basis: 50%;
+  
+
+}

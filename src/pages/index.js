@@ -18,7 +18,8 @@ const index = () => {
         {currentCardData.map((event) => (
 
           <Link href={`/posts/${event.title}`} key={event.id}>
-            <Card title={event.title} date={event.date} />
+            <Card title={event.title} image={event.image} date={event.date} />
+
           </Link>
 
         ))}

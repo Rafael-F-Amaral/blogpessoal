@@ -1,28 +1,32 @@
-.cardcontainer{
-    height: 60vh;
-    margin: auto; 
-    margin-top: 3vh;
-    color: white;
-    font-weight: 600;
-    background-blend-mode: multiply;
-    border-radius: 15px;
-}
-.postTime{
-    color: white;
-    font-weight: 600;
+.cardcontainer {
+  margin: auto;
+  margin-top: 3vh;
+  color: black;
+  font-weight: 600;
+  background-blend-mode: multiply;
+  border-radius: 15px;
+  
 }
 
-.cardContent {
-  background-image: url('./imageCard/teste.jpg');
+.postTime {
+  color: black;
+  font-weight: 600;
+}
+
+.image{
   background-size: cover;
   background-position: center;
-  height: 100%;
-  width: 97%;
-  background-size: cover;
+  background-repeat: no-repeat;
+  width: 108%;
   position: relative;
   border-radius: 15px;
   margin: auto;
+}
 
+.cardContent {
+  position: relative;
+  border-radius: 15px;
+  margin: auto;
 }
 
 .header {
@@ -39,3 +43,19 @@
 .postTime {
   font-size: 0.8rem;
 }
+
+.imageContainer {
+  position: relative;
+  width: 89%;
+  margin: auto;
+}
+
+.imageContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+

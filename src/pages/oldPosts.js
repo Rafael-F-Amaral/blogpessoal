@@ -20,7 +20,7 @@ const OldPosts = () => {
             <H2 />
             <div className={styles.cardContainer}>
                 {oldPosts.map((event) => (
-                    <Card title={event.title} date={event.date} key={event.id} />
+                    <Card title={event.title} date={event.date} key={event.id} image={event.image} />
                 ))}
             </div>
             {!showNewPosts && (
