@@ -43,3 +43,10 @@ margin-top: 300px;
 .button:hover {
   transform: scale(1.1);
 }
+
+
+@media screen and (max-width: 768px){
+  .bodyMain {
+    width: 100%;
+  }
+}
