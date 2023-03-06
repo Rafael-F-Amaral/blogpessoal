@@ -1,0 +1,39 @@
+.sobreContainer {
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  
+  .sobreTitle {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .sobreText {
+    font-size: 24px;
+    text-align: justify;
+    margin: 50px;
+  }
+  
+  .sobreFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  
+  .sobreFoto img {
+    max-width: 20%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+  }
+  
+  
+  .sobreTextoFoto {
+    font-size: 24px;
+  }
+  

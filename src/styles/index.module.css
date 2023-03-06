@@ -12,7 +12,9 @@
   flex-wrap: wrap;
   width: 85%;
   margin: auto;
-margin-top: 300px;
+  margin-top: 5vw;
+  
+
 }
 
 .cardContainer>* {
@@ -27,6 +29,14 @@ margin-top: 300px;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.4rem;
 }
 
 .button {
@@ -38,6 +48,8 @@ margin-top: 300px;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin: auto;
+
 }
 
 .button:hover {

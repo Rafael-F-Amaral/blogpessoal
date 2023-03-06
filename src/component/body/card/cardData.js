@@ -1,5 +1,5 @@
 export const cardData = [
-  { id: 1, title: "evento1", date: "2023-03-10", image: "https://i.imgur.com/LvXZ77l.jpg" },
+  { id: 1, title: "egup", date: "2023-03-10", image: "https://i.imgur.com/LvXZ77l.jpg" },
   { id: 2, title: "evento2", date: "2023-03-15", image: "https://i.imgur.com/LvXZ77l.jpg" },
   { id: 4, title: "evento3", date: "2023-03-20", image: "https://lumiere-a.akamaihd.net/v1/images/huc-ca-000074_c25681ff.jpeg" },
   { id: 5, title: "evento4", date: "2023-03-20", image: "https://lumiere-a.akamaihd.net/v1/images/huc-ca-000074_c25681ff.jpeg" },

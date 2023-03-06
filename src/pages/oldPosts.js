@@ -24,7 +24,7 @@ const OldPosts = () => {
                 ))}
             </div>
             {!showNewPosts && (
-                <Link href="/">
+                <Link href="/" className={styles.button2}>
                     <button onClick={handleShowNewPosts} className={styles.button}>
                         Ver postagens recentes
                     </button>
