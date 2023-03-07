@@ -6,6 +6,7 @@ import Link from 'next/link'
 import styles from '../styles/index.module.css'
 import { cardData } from '../component/body/card/cardData'
 
+
 const index = () => {
   const [showOldPosts, setShowOldPosts] = useState(false);
   const currentCardData = showOldPosts ? oldPosts : cardData.slice(0, 6);
