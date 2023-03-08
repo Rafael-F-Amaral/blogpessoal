@@ -17,19 +17,9 @@
     "dns": "^0.2.2",
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",
-<<<<<<< HEAD
     "native-dns-cache": "^0.0.2",
     "next": "13.2.1",
     "nodemailer": "^6.6.1",
-=======
-    "lodash": "^4.17.21",
-    "marked": "^4.2.12",
-    "minimist": "^1.2.8",
-    "next": "13.2.1",
-    "nodemailer": "^6.9.1",
-    "nodemailer-sendgrid-transport": "^0.2.0",
-    "nth-check": "^2.1.1",
->>>>>>> ff7b3d0f433cd2824c801c88dffa43e564f9bca0
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
