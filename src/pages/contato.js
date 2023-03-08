@@ -2,14 +2,7 @@ import { FormEvent, useState } from 'react';
 import styles from '../pages/contato/contato.module.css';
 
 const Contato = () => {
-  const [nome, setNome] = useState('');
-  const [email, setEmail] = useState('');
-  const [mensagem, setMensagem] = useState('');
 
-  async function handleSubmit(event) {
-    event.preventDefault();
-    console.log(nome, email, mensagem);
-  }
 
 
   return (
