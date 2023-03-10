@@ -17,6 +17,7 @@
     "dns": "^0.2.2",
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",
+    "firebase": "^9.17.2",
     "native-dns-cache": "^0.0.2",
     "next": "13.2.1",
     "nodemailer": "^6.6.1",
